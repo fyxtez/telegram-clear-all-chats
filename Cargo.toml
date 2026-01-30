@@ -1,0 +1,12 @@
+[package]
+name = "telegram_clear_all_chats"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+dotenv = "0.15.0"
+futures = "0.3.31"
+grammers-client = "0.8.1"
+grammers-mtsender = "0.8.1"
+grammers-session = "0.8.0"
+tokio = { version = "1.49.0", features = ["full"] }
